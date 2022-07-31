@@ -1,7 +1,7 @@
 # Deploying Kubernetes on-premise in Azure Arc (Fully Automated)
 
 There are 3 scripts to perform fully automated deployment of kubernetes cluster into Azure Arc:
-1. Deploy Kubernetes master node and X nuber of worker ndoes, please use this script [setup-k8sfull.sh](https://github.com/bramyeni/bash-scripts/blob/main/setup-k8sfull.sh )
+1. Deploy Kubernetes master node along wit X nuber of worker nodes, please use this script [setup-k8sfull.sh](https://github.com/bramyeni/bash-scripts/blob/main/setup-k8sfull.sh )
 2. Deploy Storage class using this script [setup-sc.sh](https://github.com/bramyeni/bash-scripts/blob/main/setup-sc.sh) from the following storage:
    - smb (connect to smb server, install samba package, configure smb.conf, create mountpoint, start samba server, create storage class csi-smb)
    - nfs (connect to nfs server, install nfs-server package, create /etc/exports for mountpoint, start nfs-server, create storage class csi-nfs)
