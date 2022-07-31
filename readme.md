@@ -7,4 +7,4 @@ There are 3 scripts to perform fully automated deployment of kubernetes cluster 
    - nfs (connect to nfs server, install nfs-server package, create /etc/exports for mountpoint, start nfs-server, create storage class csi-nfs)
    - azuresmb (create storage account, create premium file server with smb protocol, create share smbmount, get the key, create secret, create storage class csi-smb)
    - azurenfs (create storage account, create premium file server with nfs protocol, create share nfsmount, create service endpoint on specified vnet's subnet, create storage class csi-nfs)
-3. Deploy Azure Arc which connect to Kubernetes clusetr and storage class above 
+3. Deploy Azure Arc which connect to Kubernetes clusetr and storage class above (still creating it :-) )
